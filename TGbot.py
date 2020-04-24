@@ -13,9 +13,21 @@ def send_text(message):
     elif message.text.lower() == 'oк':
         bot.send_message(message.chat.id, 'ok')
     elif message.text.lower() == 'оk':
-        bot.send_message(message.chat.id, 'ok'  )
+        bot.send_message(message.chat.id, 'ok')
     elif message.text.lower() == '0k':
         bot.send_message(message.chat.id, 'ok')
     elif message.text.lower() == '0к':
         bot.send_message(message.chat.id, 'ok')
+    elif message.text.lower() == 'Вань':
+        bot.send_message(message.chat.id, 'Воробьев')
+    elif message.text.lower() == 'Ваня':
+        bot.send_message(message.chat.id, 'Воробьев')
+    elif message.text.lower() == 'Иван':
+        bot.send_message(message.chat.id, 'Воробьев')
+    elif message.text.lower() == 'Эмиль':
+        bot.send_message(message.chat.id, 'Харасов')
+    elif message.text.lower() == 'Эмль':
+        bot.send_message(message.chat.id, 'Харасов')
+    elif message.text.lower() == 'Евгений':
+        bot.send_message(message.chat.id, 'Просто Жека')
 bot.polling()
